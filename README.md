@@ -31,3 +31,20 @@ npm install bootstrap bootstrap-icons
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 ```
+
+## URI 만들기
+```cmd
+npm install react-router-dom
+```
+
+## 비동기 통기 `AXIOS`
+```cmd
+npm install axios
+```
+
+> POST 요청
+```js
+axios.post('/')
+  .then((response) => console.log(response))
+  .catch((error) => console.log(error));
+```
