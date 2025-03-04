@@ -21,3 +21,13 @@
   npm install next@latest react@latest react-dom@latest
   ```
 
+## Bootstrap Install
+```cmd
+npm install bootstrap bootstrap-icons
+```
+
++ `jsx` 추가 하기
+```js
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+```
