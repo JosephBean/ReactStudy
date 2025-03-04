@@ -7,15 +7,15 @@
 
 ## Install
 
-+ 1. CRA (`npx create-react-app my-app`)
++ CRA (`npx create-react-app my-app`)
 
-+ 2. VITE (`npm create vite@latest my-app`)
++ VITE (`npm create vite@latest my-app`)
   + `18 > 19` update
   ```cmd
   npm install react@19 react-dom@19
   ```
 
-+ 3. NEXT (`npx create-next-app@latest`)
++ NEXT (`npx create-next-app@latest`)
   + 추가 설치
   ```cmd
   npm install next@latest react@latest react-dom@latest
