@@ -48,3 +48,21 @@ axios.post('/')
   .then((response) => console.log(response))
   .catch((error) => console.log(error));
 ```
+
+## 소스 경로 별명 적용하기
+> `vite.config.js` 설정 추가
+```js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { fileURLToPath, URL } from 'url'; // 추가
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  resolve: {
+    alias: {
+        '@': fileURLToPath(new URL('./src', import.meta.url)), // 추가
+    },
+},
+});
+```
